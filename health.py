@@ -6,6 +6,7 @@ from healthDB import DataDiseases
 
 #CREATED BY YUSRIL RAPSANJANI
 #VERSION 1.0
+#facebook.com/yuranitakeuchi
 
 class Spider:
     def __init__(self, url):
