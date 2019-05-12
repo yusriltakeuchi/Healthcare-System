@@ -4,6 +4,9 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 from healthDB import DataDiseases
 
+#CREATED BY YUSRIL RAPSANJANI
+#VERSION 1.0
+
 class Spider:
     def __init__(self, url):
         self.url = url
