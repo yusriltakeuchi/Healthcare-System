@@ -41,4 +41,7 @@ However, the second search will be much faster
 ### Example result when searching diseases
 ![alt text](https://i.imgur.com/z2zdetC.png "Example result when searching diseases")
 
+### Example result in database
+![alt text](https://i.imgur.com/p0jzBJq.png "Example result in database")
+
 
