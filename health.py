@@ -61,11 +61,10 @@ class Spider:
                 if 'h-ciri-ciri-dan-gejala' in str(sec) or 'h-tanda-tanda-dan-gejala' in str(sec) or 'h-tanda-tanda-gejala' in str(sec):
                     soup = BeautifulSoup(str(sec), 'html.parser')
                     try:
-                        ulist = soup.findAll('ul')
-                        for ul in ulist:
-                            lilist = ul.findAll('li')
-                            for li in lilist:
-                                list_symptoms.append(li.text)
+                        ulist = soup.find('ul')
+                        lilist = ulist.findAll('li')
+                        for li in lilist:
+                            list_symptoms.append(li.text)
                     except:
                         list_symptoms.append("")
                 elif 'h-definisi' in str(sec):
