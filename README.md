@@ -39,6 +39,6 @@ However, the second search will be much faster
 
 # Screenshot
 ### Example result when searching diseases
-![alt text](https://i.imgur.com/AFbRaQe.png "Example result when searching diseases")
+![alt text](https://i.imgur.com/z2zdetC.png "Example result when searching diseases")
 
 
